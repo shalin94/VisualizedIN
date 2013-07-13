@@ -21,9 +21,9 @@ public class First extends HttpServlet {
 
     response.setContentType("text/html");
 	PrintWriter out=response.getWriter();
-	out.println(api_key);
-	out.println(secret);
-	out.println(client_id);
+	out.println("<html><body><h1>"+api_key+"</h1>");
+	out.println("<h1>"+secret+"</h1>");
+	out.println("<h1>"+client_id+"</h1></body></html>");
 	
 		    }
 }
