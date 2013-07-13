@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>org.apache.tomcat.embed</groupId>
-  <artifactId>tomcat-embed-core</artifactId>
+  <groupId>org.apache.tomcat</groupId>
+  <artifactId>tomcat-jsp-api</artifactId>
   <versioning>
     <release>7.0.42</release>
     <versions>

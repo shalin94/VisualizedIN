@@ -77,7 +77,7 @@ then
   REPO="$BASEDIR"/repo
 fi
 
-CLASSPATH=$CLASSPATH_PREFIX:"$BASEDIR"/etc:"$REPO"/org/apache/tomcat/embed/tomcat-embed-core/7.0.42/tomcat-embed-core-7.0.42.jar:"$REPO"/org/apache/tomcat/embed/tomcat-embed-logging-juli/7.0.42/tomcat-embed-logging-juli-7.0.42.jar:"$REPO"/org/apache/tomcat/embed/tomcat-embed-jasper/7.0.42/tomcat-embed-jasper-7.0.42.jar:"$REPO"/org/eclipse/jdt/core/compiler/ecj/4.2.2/ecj-4.2.2.jar:"$REPO"/com/heroku/sample/embeddedTomcatSample/1.0-SNAPSHOT/embeddedTomcatSample-1.0-SNAPSHOT.jar
+CLASSPATH=$CLASSPATH_PREFIX:"$BASEDIR"/etc:"$REPO"/org/apache/tomcat/embed/tomcat-embed-core/7.0.42/tomcat-embed-core-7.0.42.jar:"$REPO"/org/apache/tomcat/embed/tomcat-embed-logging-juli/7.0.42/tomcat-embed-logging-juli-7.0.42.jar:"$REPO"/org/apache/tomcat/embed/tomcat-embed-jasper/7.0.42/tomcat-embed-jasper-7.0.42.jar:"$REPO"/org/eclipse/jdt/core/compiler/ecj/4.2.2/ecj-4.2.2.jar:"$REPO"/org/apache/tomcat/tomcat-jasper/7.0.42/tomcat-jasper-7.0.42.jar:"$REPO"/org/apache/tomcat/tomcat-servlet-api/7.0.42/tomcat-servlet-api-7.0.42.jar:"$REPO"/org/apache/tomcat/tomcat-juli/7.0.42/tomcat-juli-7.0.42.jar:"$REPO"/org/apache/tomcat/tomcat-el-api/7.0.42/tomcat-el-api-7.0.42.jar:"$REPO"/org/apache/tomcat/tomcat-api/7.0.42/tomcat-api-7.0.42.jar:"$REPO"/org/apache/tomcat/tomcat-util/7.0.42/tomcat-util-7.0.42.jar:"$REPO"/org/apache/tomcat/tomcat-jasper-el/7.0.42/tomcat-jasper-el-7.0.42.jar:"$REPO"/org/apache/tomcat/tomcat-jsp-api/7.0.42/tomcat-jsp-api-7.0.42.jar:"$REPO"/com/heroku/sample/embeddedTomcatSample/1.0-SNAPSHOT/embeddedTomcatSample-1.0-SNAPSHOT.jar
 EXTRA_JVM_ARGUMENTS=""
 
 # For Cygwin, switch paths to Windows format before running java
