@@ -1,7 +1,7 @@
 <html>
 <body>
 
-<form action="Servlets/First">
+<form action="servlet/First">
 
 </form>	
 
